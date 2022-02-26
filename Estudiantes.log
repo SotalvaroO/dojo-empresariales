@@ -1,0 +1,159 @@
+2022-02-26 09:25:07.086  INFO 13473 --- [main] d.e.d.DojoEmpresarialesApplication       : Starting DojoEmpresarialesApplication using Java 11.0.14.1 on santiago-B450M-DS3H with PID 13473 (/home/santiago/Documents/Empresariales/dojo-empresariales/target/classes started by santiago in /home/santiago/Documents/Empresariales/dojo-empresariales)
+2022-02-26 09:25:07.094  INFO 13473 --- [main] d.e.d.DojoEmpresarialesApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-02-26 09:25:08.105  INFO 13473 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-26 09:25:08.146  INFO 13473 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-02-26 09:25:08.599  INFO 13473 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-26 09:25:08.605  INFO 13473 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-26 09:25:08.606  INFO 13473 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-02-26 09:25:08.672  INFO 13473 --- [main] o.a.c.c.C.[.[.[/api-estudiantes]         : Initializing Spring embedded WebApplicationContext
+2022-02-26 09:25:08.672  INFO 13473 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1473 ms
+2022-02-26 09:25:08.887  INFO 13473 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 09:25:09.966  INFO 13473 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 09:25:10.016  INFO 13473 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-26 09:25:10.047  INFO 13473 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-26 09:25:10.143  INFO 13473 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-26 09:25:10.214  INFO 13473 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-26 09:25:10.568  INFO 13473 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-26 09:25:10.577  INFO 13473 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:25:10.786  WARN 13473 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-26 09:25:11.205  INFO 13473 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-26 09:25:11.244  INFO 13473 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-estudiantes'
+2022-02-26 09:25:11.264  INFO 13473 --- [main] d.e.d.DojoEmpresarialesApplication       : Started DojoEmpresarialesApplication in 4.875 seconds (JVM running for 5.755)
+2022-02-26 09:25:11.643  INFO 13473 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[.[.[/api-estudiantes]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-26 09:25:11.643  INFO 13473 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 09:25:11.644  INFO 13473 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-26 09:27:55.853  INFO 13473 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:27:55.856  INFO 13473 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 09:27:56.503  INFO 13473 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-26 09:28:10.275  INFO 14443 --- [main] d.e.d.DojoEmpresarialesApplication       : Starting DojoEmpresarialesApplication using Java 11.0.14.1 on santiago-B450M-DS3H with PID 14443 (/home/santiago/Documents/Empresariales/dojo-empresariales/target/classes started by santiago in /home/santiago/Documents/Empresariales/dojo-empresariales)
+2022-02-26 09:28:10.283  INFO 14443 --- [main] d.e.d.DojoEmpresarialesApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-02-26 09:28:11.058  INFO 14443 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-26 09:28:11.101  INFO 14443 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2022-02-26 09:28:11.525  INFO 14443 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-26 09:28:11.532  INFO 14443 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-26 09:28:11.532  INFO 14443 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-02-26 09:28:11.623  INFO 14443 --- [main] o.a.c.c.C.[.[localhost].[/api-student]   : Initializing Spring embedded WebApplicationContext
+2022-02-26 09:28:11.624  INFO 14443 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1300 ms
+2022-02-26 09:28:11.862  INFO 14443 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 09:28:12.956  INFO 14443 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 09:28:12.994  INFO 14443 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-26 09:28:13.028  INFO 14443 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-26 09:28:13.121  INFO 14443 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-26 09:28:13.183  INFO 14443 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-26 09:28:13.586  INFO 14443 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-26 09:28:13.593  INFO 14443 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:28:13.819  WARN 14443 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-26 09:28:14.247  INFO 14443 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-26 09:28:14.284  INFO 14443 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-student'
+2022-02-26 09:28:14.301  INFO 14443 --- [main] d.e.d.DojoEmpresarialesApplication       : Started DojoEmpresarialesApplication in 4.495 seconds (JVM running for 5.079)
+2022-02-26 09:28:14.640  INFO 14443 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/api-student]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-26 09:28:14.640  INFO 14443 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 09:28:14.642  INFO 14443 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-26 09:30:27.642  INFO 14443 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:30:27.645  INFO 14443 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 09:30:28.288  INFO 14443 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-26 09:30:33.354  INFO 14886 --- [main] d.e.d.DojoEmpresarialesApplication       : Starting DojoEmpresarialesApplication using Java 11.0.14.1 on santiago-B450M-DS3H with PID 14886 (/home/santiago/Documents/Empresariales/dojo-empresariales/target/classes started by santiago in /home/santiago/Documents/Empresariales/dojo-empresariales)
+2022-02-26 09:30:33.358  INFO 14886 --- [main] d.e.d.DojoEmpresarialesApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-02-26 09:30:34.045  INFO 14886 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-26 09:30:34.079  INFO 14886 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-02-26 09:30:34.665  INFO 14886 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-26 09:30:34.676  INFO 14886 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-26 09:30:34.677  INFO 14886 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-02-26 09:30:34.745  INFO 14886 --- [main] o.a.c.c.C.[.[localhost].[/api-student]   : Initializing Spring embedded WebApplicationContext
+2022-02-26 09:30:34.745  INFO 14886 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1341 ms
+2022-02-26 09:30:34.978  INFO 14886 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 09:30:35.987  INFO 14886 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 09:30:36.024  INFO 14886 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-26 09:30:36.058  INFO 14886 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-26 09:30:36.175  INFO 14886 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-26 09:30:36.230  INFO 14886 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-26 09:30:36.582  INFO 14886 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-26 09:30:36.588  INFO 14886 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:30:36.808  WARN 14886 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-26 09:30:37.249  INFO 14886 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-26 09:30:37.304  INFO 14886 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-student'
+2022-02-26 09:30:37.331  INFO 14886 --- [main] d.e.d.DojoEmpresarialesApplication       : Started DojoEmpresarialesApplication in 4.359 seconds (JVM running for 4.944)
+2022-02-26 09:30:37.845  INFO 14886 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[.[localhost].[/api-student]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-26 09:30:37.846  INFO 14886 --- [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 09:30:37.847  INFO 14886 --- [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-26 09:31:15.438  INFO 14886 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:31:15.442  INFO 14886 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 09:31:16.084  INFO 14886 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-26 09:31:23.970  INFO 15151 --- [main] d.e.d.DojoEmpresarialesApplication       : Starting DojoEmpresarialesApplication using Java 11.0.14.1 on santiago-B450M-DS3H with PID 15151 (/home/santiago/Documents/Empresariales/dojo-empresariales/target/classes started by santiago in /home/santiago/Documents/Empresariales/dojo-empresariales)
+2022-02-26 09:31:23.977  INFO 15151 --- [main] d.e.d.DojoEmpresarialesApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-02-26 09:31:24.759  INFO 15151 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-26 09:31:24.795  INFO 15151 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-02-26 09:31:25.152  INFO 15151 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-26 09:31:25.160  INFO 15151 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-26 09:31:25.160  INFO 15151 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-02-26 09:31:25.244  INFO 15151 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-26 09:31:25.245  INFO 15151 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1217 ms
+2022-02-26 09:31:25.442  INFO 15151 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 09:31:26.526  INFO 15151 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 09:31:26.560  INFO 15151 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-26 09:31:26.588  INFO 15151 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-26 09:31:26.669  INFO 15151 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-26 09:31:26.729  INFO 15151 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-26 09:31:27.041  INFO 15151 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-26 09:31:27.048  INFO 15151 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:31:27.260  WARN 15151 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-26 09:31:27.700  INFO 15151 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-26 09:31:27.740  INFO 15151 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-26 09:31:27.759  INFO 15151 --- [main] d.e.d.DojoEmpresarialesApplication       : Started DojoEmpresarialesApplication in 4.209 seconds (JVM running for 4.955)
+2022-02-26 09:31:28.132  INFO 15151 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-26 09:31:28.133  INFO 15151 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 09:31:28.136  INFO 15151 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-02-26 09:33:32.693  INFO 15151 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:33:32.695  INFO 15151 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 09:33:33.352  INFO 15151 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-26 09:33:38.626  INFO 15599 --- [main] d.e.d.DojoEmpresarialesApplication       : Starting DojoEmpresarialesApplication using Java 11.0.14.1 on santiago-B450M-DS3H with PID 15599 (/home/santiago/Documents/Empresariales/dojo-empresariales/target/classes started by santiago in /home/santiago/Documents/Empresariales/dojo-empresariales)
+2022-02-26 09:33:38.630  INFO 15599 --- [main] d.e.d.DojoEmpresarialesApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-02-26 09:33:39.411  INFO 15599 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-26 09:33:39.455  INFO 15599 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-02-26 09:33:39.839  INFO 15599 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-26 09:33:39.845  INFO 15599 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-26 09:33:39.845  INFO 15599 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-02-26 09:33:39.917  INFO 15599 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-26 09:33:39.918  INFO 15599 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1240 ms
+2022-02-26 09:33:40.105  INFO 15599 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 09:33:41.118  INFO 15599 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 09:33:41.153  INFO 15599 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-26 09:33:41.182  INFO 15599 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-26 09:33:41.266  INFO 15599 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-26 09:33:41.330  INFO 15599 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-26 09:33:41.629  INFO 15599 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-26 09:33:41.635  INFO 15599 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:33:41.846  WARN 15599 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-26 09:33:42.252  INFO 15599 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-26 09:33:42.295  INFO 15599 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-26 09:33:42.312  INFO 15599 --- [main] d.e.d.DojoEmpresarialesApplication       : Started DojoEmpresarialesApplication in 4.081 seconds (JVM running for 4.626)
+2022-02-26 09:33:42.591  INFO 15599 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-26 09:33:42.591  INFO 15599 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 09:33:42.592  INFO 15599 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-26 09:44:27.187  INFO 15599 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:44:27.189  INFO 15599 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 09:44:27.836  INFO 15599 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-26 09:44:33.091  INFO 17063 --- [main] d.e.d.DojoEmpresarialesApplication       : Starting DojoEmpresarialesApplication using Java 11.0.14.1 on santiago-B450M-DS3H with PID 17063 (/home/santiago/Documents/Empresariales/dojo-empresariales/target/classes started by santiago in /home/santiago/Documents/Empresariales/dojo-empresariales)
+2022-02-26 09:44:33.093  INFO 17063 --- [main] d.e.d.DojoEmpresarialesApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-02-26 09:44:33.789  INFO 17063 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-26 09:44:33.825  INFO 17063 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-02-26 09:44:34.241  INFO 17063 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-26 09:44:34.247  INFO 17063 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-26 09:44:34.248  INFO 17063 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-02-26 09:44:34.334  INFO 17063 --- [main] o.a.c.c.C.[.[localhost].[/api-student]   : Initializing Spring embedded WebApplicationContext
+2022-02-26 09:44:34.335  INFO 17063 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1204 ms
+2022-02-26 09:44:34.580  INFO 17063 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 09:44:35.562  INFO 17063 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 09:44:35.596  INFO 17063 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-26 09:44:35.625  INFO 17063 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-26 09:44:35.723  INFO 17063 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-26 09:44:35.790  INFO 17063 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-26 09:44:36.143  INFO 17063 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-26 09:44:36.150  INFO 17063 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 09:44:36.384  WARN 17063 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-26 09:44:36.847  INFO 17063 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-26 09:44:36.888  INFO 17063 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-student'
+2022-02-26 09:44:36.907  INFO 17063 --- [main] d.e.d.DojoEmpresarialesApplication       : Started DojoEmpresarialesApplication in 4.208 seconds (JVM running for 5.031)
+2022-02-26 09:44:37.219  INFO 17063 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[.[localhost].[/api-student]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-26 09:44:37.219  INFO 17063 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 09:44:37.221  INFO 17063 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
